@@ -1,0 +1,28 @@
+*{
+    font-family: 'tahoma';
+}
+.artikel{
+    color: brown;
+}
+.tanggal{
+    color: green;
+}
+h3{
+    font-size: 12px;
+}
+.credit{
+    font-weight: bold;
+}
+.penulis{
+    font-weight: bold;
+    color: gray;
+}
+h3+p{
+    color: green;
+}
+span{
+    color: blueviolet;
+}
+#artikel-2{
+    color: red;
+}

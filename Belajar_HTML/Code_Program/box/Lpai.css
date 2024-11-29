@@ -1,0 +1,15 @@
+div{
+    width: 300;
+    border: 1px solid;
+    /* border-style: solid grey; */
+    /* margin: 20px; */
+    border-width: 5px 10px 15px 20px;
+    border-top-width: 10px;
+}
+
+div{
+    margin: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}

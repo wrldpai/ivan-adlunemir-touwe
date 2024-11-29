@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .sidebar {
+            width: 25%;
+            float: left;
+            background-color: #e2e2e2;
+            padding: 1rem;
+        }
+        .main-content {
+            width: 70%;
+            float: right;
+            padding: 1rem;
+        }
+        footer {
+            clear: both;
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 1rem;
+            padding: 1rem;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .card h2 {
+            margin-top: 0;
+        }
+        .card p {
+            color: #666;
+        }
+        .form-container {
+            background-color: white;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container input, .form-container textarea {
+            width: calc(100% - 2rem);
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .form-container button {
+            padding: 0.5rem 1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .form-container button:hover {
+            background-color: #575757;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contoh Halaman Web</h1>
+        <nav>
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang</a>
+            <a href="#services">Layanan</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <div class="card">
+                <h2>Sidebar Item 1</h2>
+                <p>Deskripsi singkat tentang item sidebar 1.</p>
+            </div>
+            <div class="card">
+                <h2>Sidebar Item 2</h2>
+                <p>Deskripsi singkat tentang item sidebar 2.</p>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="card">
+                <h2>Konten Utama</h2>
+                <img src="https://via.placeholder.com/600x300" alt="Gambar Utama">
+                <p>Ini adalah paragraf contoh yang menjelaskan konten utama halaman web ini. Anda dapat menambahkan lebih banyak teks di sini untuk memberikan informasi lebih lanjut.</p>
+            </div>
+            <div class="card">
+                <h2>Informasi Lainnya</h2>
+                <p>Ini adalah paragraf contoh tambahan untuk menunjukkan bagaimana konten tambahan dapat ditampilkan di halaman web.</p>
+            </div>
+            <div class="form-container">
+                <h3>Formulir Kontak</h3>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Nama Anda" required>
+                    <input type="email" name="email" placeholder="Email Anda" required>
+                    <textarea name="message" rows="4" placeholder="Pesan Anda" required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 Contoh Halaman Web. Hak cipta dilindungi.
+    </footer>
+</body>
+</html>

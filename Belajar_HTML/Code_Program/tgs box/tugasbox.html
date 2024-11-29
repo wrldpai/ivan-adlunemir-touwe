@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="pai.css" />
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter your username"
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter your password"
+        />
+
+        <button type="button" onclick="openDialog()">Login</button>
+      </form>
+    </div>
+
+    <dialog id="loginDialog">
+      <h3>Log in</h3>
+      <p>Apakah Anda ingin login!</p>
+      <div class="button-container">
+        <button type="button" class="ok-button" onclick="handleOk()">Ok</button>
+        <button type="button" class="cancel-button" onclick="closeDialog()">
+          Tidak
+        </button>
+      </div>
+    </dialog>
+    <script src="box.js"></script>
+  </body>
+</html>
